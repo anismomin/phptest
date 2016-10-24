@@ -11,5 +11,11 @@ class ValidPassword {
 		return $passLength >= self::MIN_LENGTH && $passLength <= self::MAX_LENGTH;
 	}
 
+
+	public function validLength2($password){
+		$passLength = strlen($password);
+		return $passLength >= self::MIN_LENGTH && $passLength <= self::MAX_LENGTH;
+	}
+
 	
 }
